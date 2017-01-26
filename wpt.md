@@ -1,0 +1,6 @@
+ - [ ] Hidpi interpolation and anti-aliasing bugs in layout tests (reftests, esp!)
+ - [ ] Add testcases for everything in Philip Walton's [flexbugs](https://github.com/philipwalton/flexbugs) repo (and issues!) to the Flexbox testsuite. And related test cases, too.
+ - [ ] Get csswg-test merged into wpt.
+ - [ ] Get the csswg-test build system gone.
+ - [ ] Make sure anything in csswg-test that has a build system is put into wpt's [test generation tool/checker](https://github.com/w3c/web-platform-tests/pull/3083).
+ - [ ] Make sure all reftests in wpt/csswg-test work at the test resolution. And that wptrunner actually [uses](https://github.com/w3c/wptrunner/issues/166) the viewport-size meta for things that aren't Servo.
